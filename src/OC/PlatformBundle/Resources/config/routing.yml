@@ -1,7 +1,7 @@
 # src/OC/PlatformBundle/Resources/config/routing.yml
 
 oc_platform_home:
-    path:      /platform
+    path:      /plateform
     defaults: { _controller: OCPlatformBundle:Advert:index }
     
 oc_platform_view:
