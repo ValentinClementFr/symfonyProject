@@ -1,15 +1,15 @@
 # src/OC/PlatformBundle/Resources/config/routing.yml
 
 oc_platform_home:
-    path:      /plateform
+    path:      /
     defaults: { _controller: OCPlatformBundle:Advert:index }
     
 oc_platform_view:
-    path:      /platform/advert/{id}
+    path:      /advert/{id}
     defaults: { _controller: OCPlatformBundle:Advert:view }
     
 oc_platform_view_slug:
-    path:      /platform/{year}/{slug}.{format}
+    path:      /{year}/{slug}.{format}
     defaults:
         _controller:  OCPlatformBundle:Advert:viewSlug
         format:       html
